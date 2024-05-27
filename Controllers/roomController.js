@@ -259,7 +259,7 @@ export const getCustomers = (req, res) => {
     return customerDetails;
   });
 
-  res.status(200).json(customerBookings);
+  res.json(customerBookings);
 };
 
 
